@@ -3,9 +3,139 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Eventos</title>
+    <title> Eventos</title>
     <link rel="stylesheet" href="../css/styles.css">
 </head>
+<style>
+   
+    .areaTrabajo{
+        
+       display: flex;
+       justify-content: center;
+       align-items: center;
+       
+
+    }
+
+    .cuadro1{
+        display: flex  ;
+        flex-direction: column;
+        justify-content: flex-start;
+        align-items: center;
+        width: 1440px;
+        height: 2000px;
+        padding: 20px;
+      
+       margin: 1%;
+       
+    }
+    .cuadro11{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 455px;
+        width: 1436px;
+        border-radius: 30px;
+        margin: 1%;
+        background: rgba(255, 255, 255, 0.08);
+    }
+    .cuadro1 h1{
+     
+        width: 418px;
+        height: 197px;
+        text-align: center;
+        font-size: 36px;
+        line-height: 54px;
+        color: #CAA624;
+       text-align: left;
+    }
+    .cuadro11 p{
+        
+        margin-left: 25%;
+        width: 480px;
+        height: 216px;
+        right: 80px;
+        font-weight: 400;
+    }
+    .cuadroConImagen{
+        text-align: center;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        background-image: linear-gradient(rgba(5,7,12,0.80),rgba(5,7,12,0.80)),
+        url(../img/Reservas-imagen2.jpg);
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: center;
+        height: 455px;
+        width: 1436px;
+        border-radius: 30px;
+        margin: 1%;
+      
+    }
+    .cuadroConBandas{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        background: rgba(255, 255, 255, 0.08);
+        height: 455px;
+        width: 1436px;
+        border-radius: 30px;
+        margin: 1%;
+       
+        color: #FFD12E;
+
+    }
+    .cuadroConBandas h1{
+        display: flex;
+        
+        margin-left: 20%;
+        text-align: center;
+        justify-content: center;
+        align-items: center;
+        
+    }
+    
+    .Reservacionvip{
+
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        background-image: linear-gradient(rgba(5,7,12,0.80),rgba(5,7,12,0.80)),
+        url(../img/Reservas-imagen1.jpg);
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: center;
+        height: 455px;
+        width: 1436px;
+        border-radius: 30px;
+        margin: 1%;
+    }
+
+    .Reservacionvip h1{
+       
+        width: 599px;
+        height: 224px;  
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    .Reservacionvip h2{
+        display: flex;
+        margin-left: 10%;
+        width: 599px;
+        height: 224px;  
+        font-weight: 400;
+        font-size: 20px;
+        line-height: 30px;
+        text-align: center;
+        align-items: center;
+        justify-content: center;
+
+        color: #FFFFFF;
+    }
+
+</style>
 <body>
     <section>
         <nav style="padding-top: 64px; display: flex; justify-content: center;">
@@ -25,11 +155,34 @@
         </nav>
     </section>
 
-    <section>
-        <h2 style="padding-top: 64px; display: flex; justify-content: center;">Ingresa tu Codigo</h2>
+    <section class="areaTrabajo">
+        <div class="cuadro1">
+            <div class="cuadro11" >
+                <h1>Eventos Especiales,Aprovecha y Reserva</h1>
+                <p>¡Bienvenidos a la Presentación de Eventos, el lugar donde la magia cobra vida y los momentos inolvidables se hacen realidad! Somos su socio de confianza en la creación, organización y ejecución de eventos que marcan la diferencia. Nuestra misión es transformar ideas en experiencias extraordinarias, cuidando cada detalle para que usted solo se preocupe por disfrutar.</p>
+            </div>
+            <div class="cuadroConImagen">
+                <p>¡Prepárense para una noche llena de energía y talento musical! Nos complace anunciar la presentación de seis destacadas bandas peruanas que se tomarán el escenario para ofrecer una experiencia inolvidable. Cada una de estas bandas aporta un estilo único y vibrante que promete cautivar a todos los asistentes. A continuación, les presentamos a las bandas que formarán parte de este emocionante evento:</p>
+            </div>
+            <div class="cuadroConBandas">
+                    <ol>
+                        <li>Líbido - Una de las bandas de rock más populares desde los años 90.</li>
+                        <li>We All Together - Banda de rock y pop de los años 70.</li>
+                        <li>Mar de Copas - Conocidos por su estilo de rock alternativo.</li>
+                        <li>Frágil - Reconocidos por su influencia en el rock progresivo.</li>
+                    </ol>
+                    <h1> Bandas próximas en Presentación: </h1>
+            </div>
+            <div class="Reservacionvip">
+                <h1>Reservacion VIP</h1>
+                <h2>Te ofrecemos una experiencia inolvidable con una de las bandas de tu preferencia que tenemos en nuestros eventos de la semana; *Duración - 120 minutos *Precio - 350 soles</h2>
+            </div>
+        </div>
+        
     </section>
 
     <footer>
+
         <div class="social-media">
             <a href="#"><img src="../img/ic-social-01.svg" alt=""></a>
             <a href="#"><img src="../img/ic-social-02.svg" alt=""></a>
