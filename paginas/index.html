@@ -4,7 +4,9 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Nanko House</title>
-    <link rel="stylesheet" href="../css/styles.css">    
+    <link rel="stylesheet" href="../css/styles.css"> 
+    <link href="../lightbox/css/lightbox.css" rel="stylesheet">
+	<script src="../lightbox/js/lightbox-plus-jquery.min.js"></script>
 </head>
 <body>
     <section class="headerBg">
@@ -36,11 +38,25 @@
                 <button style="width: 136px; border-radius:50px 50px 50px 50px;">Ver menú</button>
             </div>
         </section>
+
         <section class="images">
-            <img style="border-radius: 12px;" src="../img/img-header-1.png" alt="">
-            <img style="border-radius: 12px;" src="../img/img-header-2.png" alt="">
-            <img style="border-radius: 12px;" src="../img/img-header-3.png" alt="">
+            <a href="../img/img-header-1.png" data-lightbox="grupoA">
+                <img style="border-radius: 12px;" src="../img/img-header-1.png" alt="">
+            </a>
+            <a href="../img/img-header-2.png" data-lightbox="grupoA">
+                <img style="border-radius: 12px;" src="../img/img-header-2.png" alt="">
+            </a>
+            <a href="../img/img-header-3.png" data-lightbox="grupoA">
+                <img style="border-radius: 12px;" src="../img/img-header-3.png" alt="">
+            </a>
         </section>
+    </section>
+
+    <section style="padding-top: 64px; display: flex; justify-content: center; align-items: center; height: auto;">
+        <video controls style="width: 90%; border-radius: 12px;">
+            <source src="../videos/video-nanko.mp4" type="video/mp4">
+            Tu navegador no soporta el elemento de video.
+        </video>
     </section>
 
     <section class="offers">
