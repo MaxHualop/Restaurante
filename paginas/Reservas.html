@@ -5,8 +5,9 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Reservas</title>
     <link rel="stylesheet" href="../css/styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" />
 </head>
-<body>
+<body background="../img/fondo.jpeg">
     <section>
         <nav style="padding-top: 64px; display: flex; justify-content: center;">
             <ul style="align-items: center;">
@@ -24,11 +25,83 @@
             </ul>
         </nav>
     </section>
-
-    <section>
-        <h2 style="padding-top: 64px; display: flex; justify-content: center;">Ingresa tu Codigo</h2>
+        <center>
+            <h1 class="h1" style="font-size: 80px;"> Salón de Reservas </h1>
+        </center>
+        <div class="real">
+            <center>
+                <h2 class="h2" style="font-size: 20px;"> ¡Bienvenidos a nuestro apartado de reservas! </h2>
+            </center>
+            <div class="padre">
+                <p> 
+                    Donde podrás separar el tipo de servicio que tenemos 
+                    para ofrecerte según tu preferencia. Nos complace
+                    compartir contigo cada uno de nuestros platos exquisitos
+                    donde deleites tu paladar, con lo mejor que encontrarás,
+                    solo aquí en tu local favorito
+                </p>
+                <h3> "NANKO HOUSE"</h3>
+            </div>
+        </div>
+    <center>
+    <div class="imagenes">
+        <img class="img1" src="../img/imgR1.jpg" alt="">
+        <img class="img2" src="../img/imgR2.jpg" alt="">
+        <img class="img3" src="../img/imgR3.jpg" alt="">
+    </div>
+    <center>
+    <div class="super">
+        <center>
+            <h1 class="h1"> Realiza tu Reserva</h1>
+        </center>
+        <div id="hijo">
+            <div id="div1">
+            <h4 style="height: 8px;" for="ser"> Selecciona tu servicio </h4>
+            <div>
+                <select class="op" name="" id="ser">
+                    <option value=""> Reserva Vip </option>
+                    <option value=""> Reserva Regular </option>
+                </select>
+            </div>
+            <h4 style="height: 8px;"> Selecciona la fecha </h4>
+            <div>
+                <input class="op" type="date">
+            </div>
+            <h4 style="height: 8px;"> Selecciona la hora </h4>
+            <div>
+                <input class="op" type="time">
+            </div>
+            </div>
+            <div id="div2">
+            <h4 style="height: 8px;"> Nombres y apellidos </h4>
+            <div>
+                <input class="op1" type="text" placeholder="Nombres y apellidos">
+                <i id="icono01" class="fa-solid fa-user"></i>
+            </div>
+            <h4 style="height: 8px;"> Documento de identidad </h4>
+            <div>
+                <input class="op1" type="text" placeholder="DNI">
+                <i id="icono02" class="fa solid fa-id-card"></i>
+            </div>
+            <h4 style="height: 8px;"> Celular </h4>
+            <div>
+                <input class="op1" type="text" placeholder="+51">
+                <i id="icono03" class="fa-solid fa-phone"></i>
+            </div>
+            </div>
+        </div>
+        <div id="div3">
+            <button onclick='registrar("Registrado")'id="btnregistrar">REGISTRAR</button>
+            <script>
+                function registrar(nombre) {
+                    console.log("Cliente "+nombre);
+                    alert("Cliente "+nombre)
+                    
+                }
+            </script>
+        </div>
+    </div>
     </section>
-
     <footer>
         <div class="social-media">
             <a href="#"><img src="../img/ic-social-01.svg" alt=""></a>
@@ -37,6 +110,8 @@
         </div>
         <p>&copy; 2024 Nanko House</p>
     </footer>
+    
+    
 
 </body>
 </html>

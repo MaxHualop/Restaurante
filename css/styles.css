@@ -71,7 +71,7 @@ nav ul li a:hover {
 .hero-buttons button:last-child {
     background-color: transparent;
     border: 1px solid #ffffff;
-    color: #ffffff;
+    background-color: transparent;
 }
 
 .images {
@@ -320,5 +320,130 @@ footer p {
   
     padding: 20px;
    
-  }
+}
+
+  
+
+
+
+
+
+.real{
+    background-color: black;
+    height: 200px;
+}
+.padre{
+    height: 200px;
+    margin: 2rem auto;
+    text-align: center;
+    width: 600px;
+}
+.h1{
+    color: black;
+    font-size: 80px;
+    font-family:poppins;
+    -webkit-text-stroke: 0.1px white;
+}
+.h2{
+    color: white;
+    font-size: 20px;
+    font-family:poppins;
+}
+p{
+    color: white;
+    font-size: 13px;
+    font-family:poppins;
+}
+h3{
+    font-size: 25px;
+    font-family:poppins;
+}
+.padre h3{
+    color: white;
+    height: 200px;
+    margin: 2rem auto;
+    text-align: center;
+    width: 200px;
+    font-family:poppins;
+}
+.contenedor{
+    display: flex;
+}
+.img1{
+    margin-right: 80px;
+    margin: 50px;
+    width: 270px;
+    height: 270px;
+    border: 2px solid white;
+    border-radius: 150px;
+}
+.img2{
+    margin: 50px;
+    margin-right: 80px;
+    width: 270px;
+    height: 270px;
+    border: 2px solid white;
+    border-radius: 150px;
+}
+.img3{
+    margin: 50px;
+    width: 270px;
+    height: 270px;
+    border: 2px solid white;
+    border-radius: 150px;
+}
+.super{
+    background-color:black;
+    height:450px;
+}
+#hijo {
+    text-align: left;
+    display: flex;
+    flex-direction: row;
+    align-items: stretch;
+}
+.h1{
+    color: black;
+    font-size: 30px;
+    font-family: poppins;
+    -webkit-text-stroke: 0.1px white;
+}
+#div1 {
+    color: white;
+    display: flex;
+    flex-direction: column;
+    width: 80%;
+    padding: 20px;
+    padding-left:280px;
+    font-family:poppins;
+}
+#div2 {
+    color: white;
+    display: flex;
+    flex-direction: column;
+    width: 90%;
+    padding: 15px;
+    font-family:poppins;
+}
+.op{
+    width: 250px;
+    height: 25px;
+    font-family:poppins;
+}
+.op1{
+    width: 250px;
+    height: 23px;
+    font-family:poppins;
+}
+#btnregistrar {
+    width: 170px;
+    height: 50px;
+    margin-top: 40px;
+    font-size: 18px;
+    font-family:poppins;
+}
+#icono01, #icono02, #icono03{
+    margin-left: -25px;
+    color: black;
+}
   

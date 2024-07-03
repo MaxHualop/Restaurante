@@ -34,8 +34,19 @@
             <h2>Probar la diferencia</h2>
             <p>Viaja con nosotros en una aventura culinaria épica que nunca olvidarás. Aquí en <br> Nanko House, no somos solo un restaurante, somos una experiencia.</p>
             <div class="hero-buttons">
-                <button style="width: 136px; border-radius:50px 50px 50px 50px;">Reservar</button>
-                <button style="width: 136px; border-radius:50px 50px 50px 50px;">Ver menú</button>
+                <button onclick="redirigir1()" style="width: 136px; border-radius:50px 50px 50px 50px;">Reservar</button>
+                <button onclick="redirigir2()" style="width: 136px; border-radius:50px 50px 50px 50px;">Ver menú</button>
+
+                <script>
+                    function redirigir1() {
+                        location.href = "../paginas/reservas.html";
+                    }
+
+                    function redirigir2() {
+                        location.href = "../paginas/menu.html";
+                    }
+                </script>
+
             </div>
         </section>
 
